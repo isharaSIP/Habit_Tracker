@@ -1,0 +1,43 @@
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.example.habitzen">
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logonnew"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo1"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HabitZen">
+
+        <activity android:name=".SplashScreenActivity" android:exported="true" android:theme="@style/Theme.HabitZen.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity" android:exported="true">
+        </activity>
+
+        <activity android:name=".OnboardScreenActivity" android:exported="false" android:theme="@style/Theme.HabitZen.NoActionBar">
+        </activity>
+
+        <activity android:name=".LoginActivity" android:exported="false" android:theme="@style/Theme.HabitZen.NoActionBar">
+        </activity>
+
+        <receiver android:name=".widget.HabitWidget"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/habit_widget_info" />
+        </receiver>
+
+        <service
+            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="true" />
+    </application>
+</manifest>

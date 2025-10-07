@@ -1,0 +1,7 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_habits" android:title="@string/tab_habits" android:icon="@drawable/habit" />
+    <item android:id="@+id/nav_mood" android:title="@string/tab_mood" android:icon="@drawable/mood" />
+    <item android:id="@+id/nav_settings" android:title="@string/tab_reminder" android:icon="@drawable/clock" />
+    <item android:id="@+id/nav_profile" android:title="Profile" android:icon="@drawable/user" />
+</menu>

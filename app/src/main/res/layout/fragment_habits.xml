@@ -1,0 +1,152 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background_main_screens">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Welcome Header -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="16dp"
+                android:padding="20dp">
+
+                <TextView
+                    android:id="@+id/greeting_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hey [Username], Welcome to HabitZen!"
+                    android:textAlignment="center"
+                    android:textColor="@color/on_surface"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="4dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Let's build great habits together"
+                    android:textAlignment="center"
+                    android:textColor="@color/on_surface_variant"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <!-- Progress Card -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="3dp"
+                app:cardUseCompatPadding="false"
+                app:cardBackgroundColor="@color/card_background"
+                app:strokeWidth="1dp"
+                app:strokeColor="@color/surface_container">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_marginBottom="12dp">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Today's Progress"
+                            android:textColor="@color/on_surface"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/completionPercentLabel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0%"
+                            android:textColor="@color/accent_10"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:layout_marginStart="8dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/completionText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Today: 0% (0/0)"
+                        android:textColor="@color/on_surface_variant"
+                        android:textSize="14sp"
+                        android:layout_marginBottom="12dp" />
+
+                    <com.google.android.material.progressindicator.LinearProgressIndicator
+                        android:id="@+id/completionProgress"
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        app:trackThickness="10dp"
+                        app:showAnimationBehavior="inward"
+                        android:indeterminate="false"
+                        app:trackCornerRadius="10dp"
+                        android:max="100"
+                        android:progress="0"
+                        app:indicatorColor="@color/accent_10"
+                        app:trackColor="@color/surface_variant" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Habits List Header -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your Habits"
+                android:textColor="@color/on_surface"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="12dp"
+                android:layout_marginStart="4dp" />
+
+            <!-- Habits RecyclerView -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/habitsRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"
+                android:clipToPadding="false" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <!-- Modern FAB -->
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/addHabitFab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:text="Add Habit"
+        android:contentDescription="@string/add"
+        app:backgroundTint="@color/primary_60"
+        android:layout_gravity="bottom|end"
+        app:icon="@drawable/add"
+        app:iconTint="@color/on_primary"
+        android:textColor="@color/on_primary" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

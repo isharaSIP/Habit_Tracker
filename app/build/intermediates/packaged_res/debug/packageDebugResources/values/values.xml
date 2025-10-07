@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="FragmentBackgroung">#ECEFF4</color>
+    <color name="accentDark_10">#8AAE75</color>
+    <color name="accent_10">#A3BE8C</color>
+    <color name="accent_orange">#D08770</color>
+    <color name="ash">#4C566A</color>
+    <color name="back">#E5E9F0</color>
+    <color name="background_primary">#ECEFF4</color>
+    <color name="background_secondary">#E5E9F0</color>
+    <color name="black">#000000</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="delete">#BF616A</color>
+    <color name="error">#BF616A</color>
+    <color name="habit_background_checked">#A3BE8C</color>
+    <color name="habit_background_unchecked">#E5E9F0</color>
+    <color name="on_primary">#ECEFF4</color>
+    <color name="on_surface">#2E3440</color>
+    <color name="on_surface_variant">#4C566A</color>
+    <color name="primaryDark_60">#2E3440</color>
+    <color name="primary_60">#4C566A</color>
+    <color name="primary_light">#5E81AC</color>
+    <color name="secondaryDark_30">#81A1C1</color>
+    <color name="secondary_30">#88C0D0</color>
+    <color name="secondary_light">#8FBCBB</color>
+    <color name="stop">#BF616A</color>
+    <color name="success">#A3BE8C</color>
+    <color name="surface">#ECEFF4</color>
+    <color name="surface_container">#D8DEE9</color>
+    <color name="surface_variant">#E5E9F0</color>
+    <color name="warning">#EBCB8B</color>
+    <color name="white">#FFFFFF</color>
+    <string name="add">Add</string>
+    <string name="app_name">HabitZen</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="tab_habits">Habits</string>
+    <string name="tab_mood">Mood</string>
+    <string name="tab_reminder">Reminder</string>
+    <style name="HabitZen.Button.Primary" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/primary_60</item>
+        <item name="android:textColor">@color/on_primary</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+    <style name="HabitZen.Button.Secondary" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="strokeColor">@color/primary_60</item>
+        <item name="android:textColor">@color/primary_60</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+    <style name="HabitZen.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="cardBackgroundColor">@color/card_background</item>
+    </style>
+    <style name="Theme.HabitZen" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/primary_60</item>
+        <item name="colorPrimaryVariant">@color/primaryDark_60</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        
+        
+        <item name="colorSecondary">@color/secondary_30</item>
+        <item name="colorSecondaryVariant">@color/secondaryDark_30</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        <item name="colorSurfaceVariant">@color/surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/on_surface_variant</item>
+        
+        
+        <item name="android:colorBackground">@color/background_primary</item>
+        <item name="colorOnBackground">@color/on_surface</item>
+        
+        
+        <item name="colorAccent">@color/accent_10</item>
+        
+        
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/white</item>
+
+        
+        <item name="android:statusBarColor">@color/primaryDark_60</item>
+        <item name="android:windowLightStatusBar">false</item>
+        
+        
+        <item name="android:navigationBarColor">@color/surface</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+    <style name="Theme.HabitZen.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.HabitZen.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.HabitZen.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+</resources>
