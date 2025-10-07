@@ -151,7 +151,7 @@
                     style="@style/Widget.Material3.Button"
                     android:layout_width="match_parent"
                     android:layout_height="56dp"
-                    android:text="Log Mood"
+                    android:text="Add Mood"
                     app:backgroundTint="@color/primary_60"
                     android:textColor="@color/on_primary"
                     android:textSize="16sp"

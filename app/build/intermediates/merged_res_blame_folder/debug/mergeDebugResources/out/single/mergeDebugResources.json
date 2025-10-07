@@ -64,6 +64,10 @@
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.0-milestone-1\\com.example.habitzen.app-main-41:\\layout\\fragment_habits.xml"
     },
     {
+        "merged": "com.example.habitzen.app-debug-39:/layout_fragment_mood.xml.flat",
+        "source": "com.example.habitzen.app-main-41:/layout/fragment_mood.xml"
+    },
+    {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.0-milestone-1\\com.example.habitzen.app-debug-39:\\drawable_gradient_background_main_screens.xml.flat",
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.0-milestone-1\\com.example.habitzen.app-main-41:\\drawable\\gradient_background_main_screens.xml"
     },
@@ -74,10 +78,6 @@
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.0-milestone-1\\com.example.habitzen.app-debug-39:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.0-milestone-1\\com.example.habitzen.app-main-41:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
-        "merged": "com.example.habitzen.app-debug-39:/layout_fragment_settings.xml.flat",
-        "source": "com.example.habitzen.app-main-41:/layout/fragment_settings.xml"
     },
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.0-milestone-1\\com.example.habitzen.app-debug-39:\\drawable_login.png.flat",
