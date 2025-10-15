@@ -12,8 +12,10 @@
     <color name="card_background">#FFFFFF</color>
     <color name="delete">#BF616A</color>
     <color name="error">#BF616A</color>
-    <color name="habit_background_checked">#A3BE8C</color>
-    <color name="habit_background_unchecked">#E5E9F0</color>
+    <color name="habit_background_checked">#D3CFFB</color>
+    <color name="habit_background_unchecked">#FFFFFF</color>
+    <color name="new_primary">#8074F2</color>
+    <color name="new_primary_accent">#B8B0F8</color>
     <color name="on_primary">#ECEFF4</color>
     <color name="on_surface">#2E3440</color>
     <color name="on_surface_variant">#4C566A</color>
@@ -59,35 +61,35 @@
         <item name="colorPrimary">@color/primary_60</item>
         <item name="colorPrimaryVariant">@color/primaryDark_60</item>
         <item name="colorOnPrimary">@color/on_primary</item>
-        
+
         
         <item name="colorSecondary">@color/secondary_30</item>
         <item name="colorSecondaryVariant">@color/secondaryDark_30</item>
         <item name="colorOnSecondary">@color/white</item>
-        
+
         
         <item name="colorSurface">@color/surface</item>
         <item name="colorOnSurface">@color/on_surface</item>
         <item name="colorSurfaceVariant">@color/surface_variant</item>
         <item name="colorOnSurfaceVariant">@color/on_surface_variant</item>
-        
+
         
         <item name="android:colorBackground">@color/background_primary</item>
         <item name="colorOnBackground">@color/on_surface</item>
+
         
-        
-        <item name="colorAccent">@color/accent_10</item>
-        
+        <item name="colorAccent">@color/new_primary</item>
+
         
         <item name="colorError">@color/error</item>
         <item name="colorOnError">@color/white</item>
 
         
-        <item name="android:statusBarColor">@color/primaryDark_60</item>
+        <item name="android:statusBarColor">#8074F2</item>
         <item name="android:windowLightStatusBar">false</item>
+
         
-        
-        <item name="android:navigationBarColor">@color/surface</item>
+        <item name="android:navigationBarColor">#8074F2</item>
         <item name="android:windowLightNavigationBar">true</item>
     </style>
     <style name="Theme.HabitZen.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>

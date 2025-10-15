@@ -40,7 +40,7 @@
         app:cardCornerRadius="12dp"
         app:cardElevation="2dp"
         app:cardUseCompatPadding="false"
-        app:cardBackgroundColor="@color/surface"
+        app:cardBackgroundColor="@color/new_primary_accent"
         app:strokeWidth="1dp"
         app:strokeColor="@color/surface_container">
 
@@ -69,7 +69,7 @@
         app:cardCornerRadius="12dp"
         app:cardElevation="2dp"
         app:cardUseCompatPadding="false"
-        app:cardBackgroundColor="@color/surface"
+        app:cardBackgroundColor="@color/new_primary_accent"
         app:strokeWidth="1dp"
         app:strokeColor="@color/surface_container">
 

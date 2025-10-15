@@ -20,6 +20,10 @@
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.0-milestone-1\\com.example.habitzen.app-main-41:\\layout\\fragment_mood.xml"
     },
     {
+        "merged": "com.example.habitzen.app-mergeDebugResources-38:/layout/fragment_settings.xml",
+        "source": "com.example.habitzen.app-main-41:/layout/fragment_settings.xml"
+    },
+    {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.0-milestone-1\\com.example.habitzen.app-mergeDebugResources-38:\\layout\\activity_main.xml",
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.0-milestone-1\\com.example.habitzen.app-main-41:\\layout\\activity_main.xml"
     },
@@ -32,16 +36,24 @@
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.0-milestone-1\\com.example.habitzen.app-main-41:\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.0-milestone-1\\com.example.habitzen.app-mergeDebugResources-38:\\layout\\fragment_settings.xml",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.0-milestone-1\\com.example.habitzen.app-main-41:\\layout\\fragment_settings.xml"
+        "merged": "com.example.habitzen.app-mergeDebugResources-38:/layout/activity_onboard.xml",
+        "source": "com.example.habitzen.app-main-41:/layout/activity_onboard.xml"
     },
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.0-milestone-1\\com.example.habitzen.app-mergeDebugResources-38:\\layout\\dialog_add_habit.xml",
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.0-milestone-1\\com.example.habitzen.app-main-41:\\layout\\dialog_add_habit.xml"
     },
     {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.0-milestone-1\\com.example.habitzen.app-mergeDebugResources-38:\\layout\\fragment_settings.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.0-milestone-1\\com.example.habitzen.app-main-41:\\layout\\fragment_settings.xml"
+    },
+    {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.0-milestone-1\\com.example.habitzen.app-mergeDebugResources-38:\\layout\\widget_habit.xml",
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.0-milestone-1\\com.example.habitzen.app-main-41:\\layout\\widget_habit.xml"
+    },
+    {
+        "merged": "com.example.habitzen.app-mergeDebugResources-38:/layout/fragment_profile.xml",
+        "source": "com.example.habitzen.app-main-41:/layout/fragment_profile.xml"
     },
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.0-milestone-1\\com.example.habitzen.app-mergeDebugResources-38:\\layout\\item_mood.xml",
@@ -54,5 +66,9 @@
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.0-milestone-1\\com.example.habitzen.app-mergeDebugResources-38:\\layout\\item_habit.xml",
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.0-milestone-1\\com.example.habitzen.app-main-41:\\layout\\item_habit.xml"
+    },
+    {
+        "merged": "com.example.habitzen.app-mergeDebugResources-38:/layout/activity_login.xml",
+        "source": "com.example.habitzen.app-main-41:/layout/activity_login.xml"
     }
 ]

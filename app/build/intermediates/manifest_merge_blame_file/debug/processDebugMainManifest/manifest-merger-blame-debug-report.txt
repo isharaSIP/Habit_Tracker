@@ -43,8 +43,8 @@
 25-->[androidx.core:core:1.13.1] C:\Users\ASUS\.gradle\caches\9.0-milestone-1\transforms\1e8e756d0899c0eb5656fbcd7955e11d\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
 26        android:debuggable="true"
 27        android:extractNativeLibs="false"
-28        android:icon="@drawable/logonnew"
-28-->C:\Users\ASUS\Desktop\Y2S2\MAD\Habit Tracker - Copy\HabitZen\app\src\main\AndroidManifest.xml:6:9-42
+28        android:icon="@drawable/logonew"
+28-->C:\Users\ASUS\Desktop\Y2S2\MAD\Habit Tracker - Copy\HabitZen\app\src\main\AndroidManifest.xml:6:9-41
 29        android:label="@string/app_name"
 29-->C:\Users\ASUS\Desktop\Y2S2\MAD\Habit Tracker - Copy\HabitZen\app\src\main\AndroidManifest.xml:7:9-41
 30        android:roundIcon="@drawable/logo1"

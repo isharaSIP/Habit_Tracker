@@ -31,7 +31,7 @@
                     android:layout_marginBottom="35dp"
                     android:layout_gravity="center"
                     android:contentDescription="@string/app_name"
-                    android:src="@drawable/onb2"
+                    android:src="@drawable/onbnew"
                     android:scaleType="centerInside" />
 
 
@@ -77,10 +77,10 @@
                 android:layout_height="56dp"
                 android:layout_marginBottom="16dp"
                 android:text="Get Started"
-                android:textColor="@color/primary_60"
+                android:textColor="@color/white"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                app:backgroundTint="@color/accent_10"
+                app:backgroundTint="@color/new_primary"
                 app:cornerRadius="16dp"
 
                 app:iconTint="@color/primary_60" />

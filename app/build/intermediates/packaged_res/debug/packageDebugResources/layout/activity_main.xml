@@ -15,9 +15,9 @@
         android:id="@+id/bottomNav"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/surface"
+        android:background="@color/white"
         android:elevation="8dp"
-        app:itemIconTint="@color/primary_60"
+        app:itemIconTint="@color/new_primary"
         app:itemTextColor="@color/primary_60"
         app:labelVisibilityMode="labeled"
         app:menu="@menu/bottom_nav_menu" />

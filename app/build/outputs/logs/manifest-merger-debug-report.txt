@@ -101,7 +101,7 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ASUS\.gradle\cache
 	android:roundIcon
 		ADDED from C:\Users\ASUS\Desktop\Y2S2\MAD\Habit Tracker - Copy\HabitZen\app\src\main\AndroidManifest.xml:8:9-44
 	android:icon
-		ADDED from C:\Users\ASUS\Desktop\Y2S2\MAD\Habit Tracker - Copy\HabitZen\app\src\main\AndroidManifest.xml:6:9-42
+		ADDED from C:\Users\ASUS\Desktop\Y2S2\MAD\Habit Tracker - Copy\HabitZen\app\src\main\AndroidManifest.xml:6:9-41
 	android:allowBackup
 		ADDED from C:\Users\ASUS\Desktop\Y2S2\MAD\Habit Tracker - Copy\HabitZen\app\src\main\AndroidManifest.xml:5:9-35
 	android:theme

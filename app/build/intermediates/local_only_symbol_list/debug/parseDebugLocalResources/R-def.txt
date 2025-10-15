@@ -14,6 +14,8 @@ color delete
 color error
 color habit_background_checked
 color habit_background_unchecked
+color new_primary
+color new_primary_accent
 color on_primary
 color on_surface
 color on_surface_variant
@@ -41,8 +43,10 @@ drawable gradient_background_main_screens
 drawable habit
 drawable login
 drawable loginn
+drawable loginnew
 drawable logo1
 drawable logo2
+drawable logonew
 drawable logonnew
 drawable modern_card_background
 drawable modern_icon_button_background
@@ -50,9 +54,13 @@ drawable mood
 drawable onb
 drawable onb1
 drawable onb2
+drawable onbnew
 drawable profile
+drawable profilen
+drawable profilenew
 drawable user
 drawable watern
+drawable wid
 id addHabitFab
 id app_icon
 id app_name_text
@@ -106,6 +114,7 @@ id shareSummaryBtn
 id startReminderBtn
 id stopReminderBtn
 id username_edit_text
+id widgetLogo
 id widgetPercent
 id widgetTitle
 layout activity_login

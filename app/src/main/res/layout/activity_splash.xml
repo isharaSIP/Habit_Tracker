@@ -25,7 +25,7 @@
             android:layout_height="100dp"
             android:layout_gravity="center"
             android:contentDescription="@string/app_name"
-            android:src="@drawable/logonnew"
+            android:src="@drawable/logonew"
             android:scaleType="centerInside" />
 
     </com.google.android.material.card.MaterialCardView>
@@ -59,7 +59,7 @@
         android:layout_height="wrap_content"
         android:indeterminate="true"
         app:indicatorColor="@color/primary_60"
-        app:trackColor="@color/primary_light"
+        app:trackColor="@color/new_primary"
         app:indicatorSize="32dp"
         app:trackThickness="3dp" />
 

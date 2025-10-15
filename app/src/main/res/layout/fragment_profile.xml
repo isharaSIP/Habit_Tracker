@@ -28,7 +28,7 @@
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
+            android:layout_marginBottom="33dp"
             app:cardCornerRadius="24dp"
             app:cardElevation="6dp"
             app:cardUseCompatPadding="false"
@@ -55,7 +55,7 @@
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:src="@drawable/profile"
+                        android:src="@drawable/profilenew"
                         android:contentDescription="Profile Picture"
                         android:scaleType="centerCrop" />
 
@@ -117,8 +117,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="56dp"
                     android:text="Edit Profile"
-                    app:backgroundTint="@color/accent_10"
-                    android:textColor="@color/on_primary"
+                    app:backgroundTint="@color/new_primary"
+                    android:textColor="@color/white"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     app:cornerRadius="12dp"

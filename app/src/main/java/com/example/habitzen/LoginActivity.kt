@@ -68,7 +68,7 @@ class LoginActivity : AppCompatActivity() {
         val password = passwordEditText.text.toString()
 
         if (username.isEmpty() || password.isEmpty()) {
-            Toast.makeText(this, "Please enter username and password", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Please enter username and password for Register!", Toast.LENGTH_SHORT).show()
             return
         }
 

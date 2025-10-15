@@ -83,7 +83,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="0%"
-                            android:textColor="@color/accent_10"
+                            android:textColor="@color/new_primary"
                             android:textSize="20sp"
                             android:textStyle="bold"
                             android:layout_marginStart="8dp" />
@@ -108,7 +108,7 @@
                         app:trackCornerRadius="10dp"
                         android:max="100"
                         android:progress="0"
-                        app:indicatorColor="@color/accent_10"
+                        app:indicatorColor="@color/new_primary"
                         app:trackColor="@color/surface_variant" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>

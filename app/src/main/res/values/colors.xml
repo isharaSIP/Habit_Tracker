@@ -4,49 +4,60 @@
     <color name="primary_60">#4C566A</color> <!-- Nord Polar Night -->
     <color name="primaryDark_60">#2E3440</color> <!-- Darker Nord -->
     <color name="primary_light">#5E81AC</color> <!-- Nord Frost -->
-    
+
     <!-- Secondary Colors - Soft Blue/Teal -->
     <color name="secondary_30">#88C0D0</color> <!-- Nord Frost Light -->
     <color name="secondaryDark_30">#81A1C1</color> <!-- Nord Frost Medium -->
     <color name="secondary_light">#8FBCBB</color> <!-- Nord Frost Cyan -->
-    
+
     <!-- Accent Colors - Aurora Green -->
     <color name="accent_10">#A3BE8C</color> <!-- Nord Aurora Green -->
     <color name="accentDark_10">#8AAE75</color> <!-- Darker Green -->
     <color name="accent_orange">#D08770</color> <!-- Nord Aurora Orange -->
-    
+
     <!-- Surface Colors -->
     <color name="surface">#ECEFF4</color> <!-- Nord Snow Storm Light -->
     <color name="surface_variant">#E5E9F0</color> <!-- Nord Snow Storm Medium -->
     <color name="surface_container">#D8DEE9</color> <!-- Nord Snow Storm Dark -->
-    
+
     <!-- Text Colors -->
     <color name="on_surface">#2E3440</color> <!-- Dark text -->
     <color name="on_surface_variant">#4C566A</color> <!-- Medium text -->
     <color name="on_primary">#ECEFF4</color> <!-- Light text on primary -->
-    
+
     <!-- Basic colors -->
     <color name="white">#FFFFFF</color>
     <color name="black">#000000</color>
     <color name="ash">#4C566A</color>
-    
+
     <!-- Semantic Colors -->
     <color name="success">#A3BE8C</color> <!-- Green for success -->
     <color name="warning">#EBCB8B</color> <!-- Yellow for warning -->
     <color name="error">#BF616A</color> <!-- Red for error -->
     <color name="delete">#BF616A</color> <!-- Error red -->
     <color name="stop">#BF616A</color> <!-- Error red -->
-    
+
     <!-- Background Colors -->
     <color name="background_primary">#ECEFF4</color>
     <color name="background_secondary">#E5E9F0</color>
     <color name="card_background">#FFFFFF</color>
-    
+
     <!-- Habit Status Colors -->
-    <color name="habit_background_unchecked">#E5E9F0</color>
-    <color name="habit_background_checked">#A3BE8C</color>
-    
+    <color name="habit_background_unchecked">#FFFFFF</color>
+    <color name="habit_background_checked">#D3CFFB</color>
+
     <!-- Legacy color mappings -->
     <color name="back">#E5E9F0</color>
     <color name="FragmentBackgroung">#ECEFF4</color>
+
+
+    #8074F2
+    <color name="new_primary">#8074F2</color>
+    <color name="new_primary_accent">#B8B0F8</color>
+
 </resources>
+
+
+
+
+

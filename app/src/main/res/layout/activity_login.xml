@@ -31,7 +31,7 @@
                 android:layout_height="250dp"
                 android:layout_marginBottom="32dp"
                 android:contentDescription="@string/app_name"
-                android:src="@drawable/loginn"
+                android:src="@drawable/loginnew"
                 android:alpha="0.9" />
 
         </LinearLayout>
@@ -112,31 +112,32 @@
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.button.MaterialButton
+                    style="@style/Widget.Material3.Button.OutlinedButton"
                     android:id="@+id/login_button"
-                    style="@style/Widget.Material3.Button"
                     android:layout_width="match_parent"
                     android:layout_height="56dp"
                     android:layout_marginBottom="12dp"
-                    app:backgroundTint="@color/secondary_30"
                     android:text="Login"
-                    android:textColor="@color/on_primary"
-                    android:textSize="16sp"
-                    android:textStyle="bold"
-                    app:cornerRadius="12dp" />
-
-                <com.google.android.material.button.MaterialButton
-                    android:id="@+id/register_button"
-                    style="@style/Widget.Material3.Button.OutlinedButton"
-                    android:layout_width="match_parent"
-                    android:layout_height="56dp"
-                    app:strokeColor="@color/primary_60"
-                    android:text="Register"
-                    android:textColor="@color/primary_60"
+                    app:strokeColor="@color/secondary_30"
+                    android:textColor="@color/on_surface"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     app:cornerRadius="12dp" />
 
                 <!-- Help Text for New Users -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/register_button"
+                    style="@style/Widget.Material3.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:text="Register"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:backgroundTint="@color/new_primary"
+                    app:cornerRadius="12dp"
+                    app:strokeColor="@color/primary_60" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

@@ -13,18 +13,21 @@ class Prefs(private val context: Context, private val username: String) {
     private val sp = context.getSharedPreferences("habit_prefs_$username", Context.MODE_PRIVATE)
     private val gson = Gson()
 
+    //Retrieve all habits for current user
     fun getHabits(): MutableList<Habit> {
         val json = sp.getString("habits", "[]")
         val type = object : TypeToken<MutableList<Habit>>() {}.type
         return gson.fromJson(json, type)
     }
 
+    //unique identifier for each habit
     fun addHabit(title: String, dateTime: Long) {
         val list = getHabits()
         list.add(Habit(UUID.randomUUID().toString(), title, dateTime))
         sp.edit().putString("habits", gson.toJson(list)).apply()
     }
 
+    //habit data update
     fun updateHabit(id: String, newTitle: String, newDateTime: Long) {
         val list = getHabits()
         val habitToUpdate = list.find { it.id == id }
@@ -35,6 +38,7 @@ class Prefs(private val context: Context, private val username: String) {
         }
     }
 
+    //delete habit data
     fun deleteHabit(id: String) {
         val list = getHabits().filter { it.id != id }
         sp.edit().putString("habits", gson.toJson(list)).apply()
@@ -45,6 +49,7 @@ class Prefs(private val context: Context, private val username: String) {
         sp.edit().putString(today, gson.toJson(map)).apply()
     }
 
+    //Creates unique key for each day
     private fun todayKey(): String {
         val sdf = SimpleDateFormat("yyyyMMdd", Locale.US)
         return "today_" + sdf.format(Date())
@@ -100,6 +105,7 @@ class Prefs(private val context: Context, private val username: String) {
         sp.edit().remove("moods").apply()
     }
 
+    //Removes all data for specific user
     fun deleteUserSpecificData(usernameToDelete: String) {
         context.getSharedPreferences("habit_prefs_$usernameToDelete", Context.MODE_PRIVATE).edit().clear().apply()
     }

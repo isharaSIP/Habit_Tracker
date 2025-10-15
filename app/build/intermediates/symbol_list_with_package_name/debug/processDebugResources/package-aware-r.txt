@@ -2095,6 +2095,8 @@ color mtrl_textinput_disabled_color
 color mtrl_textinput_filled_box_default_background_color
 color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
+color new_primary
+color new_primary_accent
 color notification_action_color_filter
 color notification_icon_bg_color
 color on_primary
@@ -3062,8 +3064,10 @@ drawable ic_search_black_24
 drawable indeterminate_static
 drawable login
 drawable loginn
+drawable loginnew
 drawable logo1
 drawable logo2
+drawable logonew
 drawable logonnew
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -3143,12 +3147,16 @@ drawable notify_panel_notification_icon_bg
 drawable onb
 drawable onb1
 drawable onb2
+drawable onbnew
 drawable profile
+drawable profilen
+drawable profilenew
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable user
 drawable watern
+drawable wid
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -3695,6 +3703,7 @@ id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
 id west
+id widgetLogo
 id widgetPercent
 id widgetTitle
 id withText

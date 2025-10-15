@@ -24,7 +24,7 @@
             android:id="@+id/habitDone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:buttonTint="@color/accent_10" />
+            app:buttonTint="@color/new_primary" />
 
         <LinearLayout
             android:layout_width="0dp"
